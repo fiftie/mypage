@@ -1,0 +1,36 @@
+{
+  "name": "mypage",
+  "version": "1.0.0",
+  "description": "condevのmypageの作り直し",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "node ./server/server.js",
+    "build": "NODE_ENV=local webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fiftie/mypage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fiftie/mypage/issues"
+  },
+  "homepage": "https://github.com/fiftie/mypage#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
